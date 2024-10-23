@@ -12,4 +12,5 @@ for i in A:
 
 # To convert each element to a string, you should use the map function
 result = map(str, less_than)
-print(" ".join(result))
+
+print(' '.join(result))
