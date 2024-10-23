@@ -2,9 +2,8 @@
 
 import sys
 
-A, B = True, True
-
-while A and B:
+while True:
     A, B = map(int, sys.stdin.readline().split())
-    if A != 0 and B != 0:
-        print(A + B)
+    if A == B == 0:
+        break
+    print(A + B)
